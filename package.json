@@ -1,0 +1,16 @@
+{
+  "name": "cypom",
+  "version": "1.0.0",
+  "description": "pom builder for cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypom",
+    "extension",
+    "chrome"
+  ],
+  "author": "Shivam Verma",
+  "license": "ISC"
+}

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "CyPOM",
+    "description": "POM builder for cypress",
+    "version": "1.0.0",
+    "author": "Shivam Verma",
+    "content_scripts": [
+        {
+            "matches": [
+               "*://*/*"
+            ],
+            "js": [
+                "./functions/cypom.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+
+          "services/contextMenu.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage"
+    ]
+}
